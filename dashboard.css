@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #121111d7;
+    margin: 0;
+    padding: 0;
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#backbtn {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #0c1201da;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s;
+}
+#logoutbtn{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 84%;
+    padding: 10px;
+    background-color: #0c1201da;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: 0.5s;
+}
+
+#headerSection button:hover {
+    background-color: #1b5f6ad2;
+    color: white;
+}
+
+#headerSection h1{
+    text-align: center;
+}
+#headerSection{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Profile{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    
+}
+#Group{
+    background-color: rgb(255, 255, 255);
+    width:500px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 10px;
+    color: #adff2f;
+
+   
+}

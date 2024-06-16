@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #121111d7;
+    margin: 0;
+    padding: 0;
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#headers {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bodys {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #d3dde4b6;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    animation: slideIn 0.5s ease-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+input[type="password"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #702829c4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #034184da;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0799acd2;
+}
+
+a {
+    text-decoration: none;
+    color: #1d05f6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
